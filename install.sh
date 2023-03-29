@@ -1,11 +1,11 @@
 #!/bin/sh
 
-# This script will install ROS 2 galatic to your Ubuntu machine.
+# This script will install ROS 2 galactic to your Ubuntu machine.
 # Instructions follow the steps of the website below.
 # https://docs.ros.org/en/galactic/Installation/Ubuntu-Install-Debians.html
 # Note that only Ubuntu 20.04 (Focal) is acceptable
 
-# make sure to run only on jammy
+# make sure to run only on focal
 UBUNTU_VER=$(lsb_release -sc)
 [ "$UBUNTU_VER" = "focal" ] || exit 1
 
