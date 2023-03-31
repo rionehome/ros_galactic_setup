@@ -5,6 +5,9 @@
 # https://docs.ros.org/en/galactic/Installation/Ubuntu-Install-Debians.html
 # Note that only Ubuntu 20.04 (Focal) is acceptable
 
+# exit if error happens
+set -e
+
 # make sure to run only on focal
 UBUNTU_VER=$(lsb_release -sc)
 [ "$UBUNTU_VER" = "focal" ] || exit 1
